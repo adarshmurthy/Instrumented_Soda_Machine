@@ -1,6 +1,8 @@
 // Code to connect an Arduino Yun to three flex sensors and measure the volume of soda
 // being dispensed (Coca-Cola(R), Diet Coke(R) and Powerade(R)). The measurement will be uploaded
 // to your ThingSpeak channel every time one of the three drinks are dispensed.
+//
+// Copyright (c) 2014 The MathWorks, Inc.
 
 #include <HttpClient.h>
 #include <Bridge.h>
